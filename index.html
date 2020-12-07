@@ -1,47 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Belajar HTML Form</title>
+    <link rel="stylesheet" href="indofood.css">
+    <title>Home | Indofood</title>
 </head>
-
 <body>
-    <h1>Contoh Github</h1>
+    <div id="header">
+        <div id="logo">
+            <img src="logo-indofood.png" width="65%">
+        </div>
+        <div>
+            <ul id="menu">
+                <li><a href="index.html">BERANDA</a></li>
+                <li><a href="/grup-bisnis">GRUP BISNIS</a></li>
+                <li><a href="index1.html">KARIR</a></li>
+                <li><a href="/investor">INVESTOR RELATIONS</a></li>
+                <li><a href="/berita">BERITA & KEGIATAN</a></li>
+                <li><a href="index2.html">CSR</a></li>
+                <li><a href="biodata.html">BIODATA</a></li>
+                <li><a href="contact_us.html">KONTAK KAMI</a></li>
+            </ul>
+        </div>
+        <div>
+            <img class="banner" src="mid1.jpg">
+        </div>
 
-    <form action="process.php">
-        <p><label>Nama:</label><input type="text" name="nama" placeholder="Masukkan nama" required></p>
-        <p><label>Email:</label><input type="email" name="email" placeholder="Masukkan email"></p>
-        <p><label>Password:</label><input type="password" name="password"></p>
-        <p><label>Nomor Telefon:</label><input type="text" name="nomor_telefon"></p>
-        <p><label>Tanggal Lahir:</label><input type="date" name="tanggal_lahir"></p>
-        <p><label>Alamat:</label><textarea rows="3" name="alamat"></textarea></p>
-        <p><label>Jenis Kelamin</label>
-            <input type="radio" name="gender" value="laki-laki" checked><label>Laki-laki</label>
-            <input type="radio" name="gender" value="perempuan"><label>Perempuan</label>
-        </p>
-        <p><label name="hobi">Hobi:</label>
-            <input type="checkbox" value="mancing"><label>Mancing</label>
-            <input type="checkbox" value="makan"><label>Makan</label>
-            <input type="checkbox" value="mandi"><label>Mandi</label>
-        </p>
-        <p><label>Agama</label>
-            <select name="agama">
-                <option value="">Silahkan pilih agama</option>
-                <option value="Kristen Protestan" selected>Kristen Protestan</option>
-                <option value="Islam">Islam</option>
-                <option value="Budha">Budha</option>
-            </select>
-        </p>
-        <p><label>Status:</label>
-            <input type="radio" name="status" value="menikah"><label>Menikah</label>
-            <input type="radio" name="status" value="belum menikah"><label>Belum Menikah</label>
-        </p>
-        <input type="submit" value="Simpan">
-        <input type="reset">
-    </form>
+        <div class="clearfix">
+            <div class="box">
+                <img src="MID1.png" style="width:100%">
+            </div>
+            <div class="box">
+                <img src="MID2.png" style="width:100%">
+            </div>
+            <div class="box">
+                <img src="MID3.png" style="width:100%">
+            </div>
+        </div>
 
+        <div class="main">
+            <div class="home1 homes">
+                <div><a href="/siaran-pers" class="home-title">Siaran Pers</a></div>
+            
+                <div class="home-content">
+                    <div class="time">
+                        <div class="date">15</div>
+                        <div class="mon">Jul</div>
+                        <div class="year">2020</div>
+                    </div>
+                    <div class="home-text">
+                        <p>Para Pemegang Saham Indofood Menyetujui Seluruh Agenda RUPST</p>
+                    </div>            
+                </div>    
+            <div class="home-space">&nbsp;</div>
+                <div class="home-content">
+                    <div class="time">
+                        <div class="date">27</div>
+                        <div class="mon">Jun</div>
+                        <div class="year">2020</div>
+                    </div>
+                    <div class="home-text">
+                        <p>TOSS-GCB: Kolaborasi Institusi Dalam Menyelesaikan Permasalahan Sampah Sungai dan Memanfaatkannya Menjadi Sumber Energi Alternatif</p>
+                    </div>            
+                </div>    
+            
+                <div id="clear"></div>
+            </div>    
+            <div class="home2 homes">
+                <div class="home-linem"></div>
+                    <div><a href="/pengumuman" class="home-title">Pengumuman</a></div>
+            
+                <div class="home-content">
+                    <div class="time">
+                        <div class="date">5</div>
+                        <div class="mon">Jun</div>
+                        <div class="year">2020</div>
+                    </div>
+                    <div class="home-text">
+                        <p>Penjelasan PT Indofood Berkaitan dengan Modus Penipuan Undian Berhadiah</p>
+                    </div>            
+                </div>    
+            <div class="home-space">&nbsp;</div>
+                <div class="home-content">
+                    <div class="time">
+                        <div class="date">27</div>
+                        <div class="mon">Jun</div>
+                        <div class="year">2019</div>
+                    </div>
+                    <div class="home-text">
+                        <p>Indofood Agri Statement Regarding The Article Published By Valuewalk Premium On 19th June Of 2019</p>
+                    </div>            
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="column">
+                <p class="diff">Kegiatan</p>
+                <div class="time">
+                    <div class="date">7</div>
+                    <div class="mon">Sep</div>
+                    <div class="year">2019</div>
+                </div>
+                <div class="column">
+                    <img class="festival" src="festival.jpg">
+                </div>
+                <div class="columno">
+                    <img src="festival1.jpg">
+                    <img src="festival2.jpg">
+                    <img src="festival3.jpg">
+                </div>
+                </div>
+                
+                <div class="column">
+                    <p class="diff">Peluncuran Produk Baru</p>
+                    <div class="column">
+                        <h4>Kecap Manis Indofood</h4>
+                        <p>Kecap Manis Indofood kini hadir dengan formula baru! Dibuat dengan sari kedelai berkualitas hasil pe...</p>
+                        <img src="kecap.jpg">
+                    </div>
+                    <div class="column">
+                        <h4>Bumbu Penyedap Indofood cube</h4>
+                        <p>BARU! Bumbu Penyedap Indofood cube! Dibuat dari ayam dan sapi pilihan berkualitas diproses dan dikem...</p>
+                        <img src="rasasapi.jpg">
+                    </div>
+                </div>'
+                '
+            </div>
+                <ul id="bottom">
+                    <li><a class="grey" href="#">Kontak Kami</a></li>
+                    <li><a class="grey" href="#">Peta Situs</a></li>
+                    <li><a class="grey" href="#">Syarat & Ketentuan</a></li>
+                        <div>
+                            <img class="right" src="callcenter.jpg">
+                        </div>
+                </ul>
+            <div>
+
+            </div>
+
+        </div>
+    </div>
 </body>
-
 </html>

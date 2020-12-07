@@ -1,0 +1,279 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+    -webkit-text-size-adjust: 100%;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#header{
+    position: relative;
+    padding-bottom: 0px;
+    /* height: 100px; */
+    /* width: 2000px; */
+    margin: 0px auto 0px auto;
+    /* background-color: transparent; */
+}
+
+#logo{
+    display: block;
+    margin: 10px auto;
+    width: 250px;
+    text-align: left;
+}
+
+#menu{
+    position: relative;
+    list-style-type: none;
+    height: 40px;
+    margin: 10px auto;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-bottom: 2px solid blue;
+    font-size: 14px;
+    /* overflow: hidden; */
+}
+
+/* bagian pertama */
+
+.box {
+    float: left;
+    width: 33.33%;
+    padding: 0px;
+}
+
+li {
+    float: left;
+}
+
+li a{
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner{
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    border: none;
+    outline: 0;
+    color: black;
+}
+
+/*bagian kedua*/
+
+.main {
+    width: 750px;
+    margin: 0 auto;
+    /* width: 50%; */
+}
+
+.main:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.homes {
+    float: left;
+    width: 50%;
+    padding: 15px;
+}
+
+.home1 {
+    float: left;
+    width: 750px;
+    padding: 15px 0;
+}
+
+.home-title {
+    font-size: 32px;
+    color: #3a3a3a;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+    line-height: 42px;
+    text-align: left;
+}
+
+.home-content {
+    float: left;
+    width: 360px;
+    padding-top: 15px;
+}
+
+.time {
+    float: left;
+    width: 42px;
+    height: 64px;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.date {
+    background-color: lightgray;
+    font-size: 20px;
+    color: #787878;
+    padding-top: 8px;
+}
+
+.mon {
+    background-color: grey;
+    font-size: 15px;
+    color: #FFF;
+    padding-top: 8px;
+}
+
+.year {
+    font-size: 18px;
+    color: #b6b6b6;
+    padding-top: 6px;
+}
+
+.home-text {
+    float: right;
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: black;
+}
+
+.home-space {
+    float: left;
+    width: 20px;
+}
+
+.home2 {
+    float: right;
+    width: 750px;
+    padding: 15px 0;
+}
+
+.home-linem{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* bagian ketiga */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    color: #3a3a3a;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+    /* line-height: 1px; */
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.festival{
+    width: 100%;
+}
+
+.columno{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    color:  #3a3a3a;
+}
+
+/* bagian keempat */
+#bottom{
+    /* position: relative; */
+    list-style-type: none;
+    height: 40px;
+    margin: 10px auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* border-right: 1px solid grey; */
+    /* overflow: hidden; */
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.right{
+    float: right;
+}
+
+.diff{
+    font-size: 33px;
+    margin: 10;
+    padding: 0;
+    border: 0;
+}
+
+.grey{
+    color: grey;
+}
+
+/* biodata */
+.biodata{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 560px;
+    border-radius: 100%;
+}
+
+.middle{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* contact us */
+.kontak{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 150px;
+}
+
+/* index 1 */
+.index1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 150px;
+}
+
+.right-index1{
+    margin-right: 150px;
+}
+
+/* index 2 */
+.index2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 150px;
+}
+
+.right-index2{
+    margin-right: 150px;
+}
+
+.blue-index2{
+    color: blue;
+}
+
+/* margin bottom */
+.under{
+    margin-bottom: 500px;
+}
+
+/* title */
+.title-kontak{
+    font-size: 30px;
+}
