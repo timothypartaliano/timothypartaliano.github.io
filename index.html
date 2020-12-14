@@ -3,143 +3,219 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="indofood.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        .carousel-inner img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .logo_indofood{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+
     <title>Home | Indofood</title>
 </head>
 <body>
-    <div id="header">
-        <div id="logo">
-            <img src="logo-indofood.png" width="65%">
+    <div>
+
+        <div style="margin-top: 30px;">
+            <img class="logo_indofood" src="logo-indofood.png" alt="Logo Indofood">
         </div>
+
         <div>
-            <ul id="menu">
-                <li><a href="index.html">BERANDA</a></li>
-                <li><a href="/grup-bisnis">GRUP BISNIS</a></li>
-                <li><a href="index1.html">KARIR</a></li>
-                <li><a href="/investor">INVESTOR RELATIONS</a></li>
-                <li><a href="/berita">BERITA & KEGIATAN</a></li>
-                <li><a href="index2.html">CSR</a></li>
-                <li><a href="biodata.html">BIODATA</a></li>
-                <li><a href="contact_us.html">KONTAK KAMI</a></li>
+            <ul class="nav justify-content-center" style="margin-top: 7px;">
+                <li class="nav-item">
+                    <a class="nav-link text-body" href="index.html">PERUSAHAAN</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-body" href="#">GRUP BISNIS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-body" href="#">MEREK</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-body" href="#">INVESTOR RELATIONS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-body" href="#">BERITA & KEGIATAN</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-body" href="#">CSR</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-body" href="biodata.html">BIODATA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-body" href="contact_us.html">KONTAK KAMI</a>
+                </li>
             </ul>
         </div>
-        <div>
-            <img class="banner" src="mid1.jpg">
+
+        <hr style="border-width: 3px; border-color: rgb(52, 52, 182); width: 71%; margin-top: -3px;">
+
+        <div id="demo" class="carousel slide" data-ride="carousel" style="margin-top: -12px;">
+
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+                <li data-target="#demo" data-slide-to="3"></li>
+                <li data-target="#demo" data-slide-to="4"></li>
+            </ul>
+            
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="carousel1.jpg" alt="carousel 1" width="1100" height="500">
+                </div>
+                <div class="carousel-item">
+                    <img src="carousel2.jpg" alt="carousel 2" width="1100" height="500">
+                </div>
+                <div class="carousel-item">
+                    <img src="carousel3.jpg" alt="carousel 3" width="1100" height="500">
+                </div>
+                <div class="carousel-item">
+                    <img src="carousel4.jpg" alt="carousel 4" width="1100" height="500">
+                </div>
+                <div class="carousel-item">
+                    <img src="carousel5.jpg" alt="carousel 5" width="1100" height="500">
+                </div>
+            </div>
+            
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
         </div>
 
-        <div class="clearfix">
-            <div class="box">
-                <img src="MID1.png" style="width:100%">
+        <div class="row">
+            <div class="col-sm-2" style="background-image: linear-gradient(rgb(156, 156, 156), rgb(224, 224, 224));"></div>
+            <div class="col-sm-2" style="background-image: linear-gradient(rgb(156, 156, 156), rgb(224, 224, 224));">
+                <img src="row1.png" alt="Produk Konsumen">
+                <p class="text-center text-primary">Produk Konsumen</p>
             </div>
-            <div class="box">
-                <img src="MID2.png" style="width:100%">
+            <div class="col-sm-2" style="background-image: linear-gradient(rgb(156, 156, 156), rgb(224, 224, 224));">
+                <img src="row2.png" alt="Bogasari">
+                <p class="text-center text-primary">Bogasari</p>
             </div>
-            <div class="box">
-                <img src="MID3.png" style="width:100%">
+            <div class="col-sm-2" style="background-image: linear-gradient(rgb(156, 156, 156), rgb(224, 224, 224));">
+                <img src="row3.png" alt="Agribisnis">
+                <p class="text-center text-primary">Agribisnis</p>
             </div>
+            <div class="col-sm-2" style="background-image: linear-gradient(rgb(156, 156, 156), rgb(224, 224, 224));">
+                <img src="row4.png" alt="Distribusi">
+                <p class="text-center text-primary">Distribusi</p>
+            </div>
+            <div class="col-sm-2" style="background-image: linear-gradient(rgb(156, 156, 156), rgb(224, 224, 224));"></div>
         </div>
 
-        <div class="main">
-            <div class="home1 homes">
-                <div><a href="/siaran-pers" class="home-title">Siaran Pers</a></div>
-            
-                <div class="home-content">
-                    <div class="time">
-                        <div class="date">15</div>
-                        <div class="mon">Jul</div>
-                        <div class="year">2020</div>
-                    </div>
-                    <div class="home-text">
-                        <p>Para Pemegang Saham Indofood Menyetujui Seluruh Agenda RUPST</p>
-                    </div>            
-                </div>    
-            <div class="home-space">&nbsp;</div>
-                <div class="home-content">
-                    <div class="time">
-                        <div class="date">27</div>
-                        <div class="mon">Jun</div>
-                        <div class="year">2020</div>
-                    </div>
-                    <div class="home-text">
-                        <p>TOSS-GCB: Kolaborasi Institusi Dalam Menyelesaikan Permasalahan Sampah Sungai dan Memanfaatkannya Menjadi Sumber Energi Alternatif</p>
-                    </div>            
-                </div>    
-            
-                <div id="clear"></div>
-            </div>    
-            <div class="home2 homes">
-                <div class="home-linem"></div>
-                    <div><a href="/pengumuman" class="home-title">Pengumuman</a></div>
-            
-                <div class="home-content">
-                    <div class="time">
-                        <div class="date">5</div>
-                        <div class="mon">Jun</div>
-                        <div class="year">2020</div>
-                    </div>
-                    <div class="home-text">
-                        <p>Penjelasan PT Indofood Berkaitan dengan Modus Penipuan Undian Berhadiah</p>
-                    </div>            
-                </div>    
-            <div class="home-space">&nbsp;</div>
-                <div class="home-content">
-                    <div class="time">
-                        <div class="date">27</div>
-                        <div class="mon">Jun</div>
-                        <div class="year">2019</div>
-                    </div>
-                    <div class="home-text">
-                        <p>Indofood Agri Statement Regarding The Article Published By Valuewalk Premium On 19th June Of 2019</p>
-                    </div>            
-                </div>
+        <div class="row" style="margin-top: 10px;">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-4">
+                <h1><small>Siaran Pers</small></h1>
             </div>
-            
-            <div class="row">
-                <div class="column">
-                <p class="diff">Kegiatan</p>
-                <div class="time">
-                    <div class="date">7</div>
-                    <div class="mon">Sep</div>
-                    <div class="year">2019</div>
-                </div>
-                <div class="column">
-                    <img class="festival" src="festival.jpg">
-                </div>
-                <div class="columno">
-                    <img src="festival1.jpg">
-                    <img src="festival2.jpg">
-                    <img src="festival3.jpg">
-                </div>
-                </div>
-                
-                <div class="column">
-                    <p class="diff">Peluncuran Produk Baru</p>
-                    <div class="column">
-                        <h4>Kecap Manis Indofood</h4>
-                        <p>Kecap Manis Indofood kini hadir dengan formula baru! Dibuat dengan sari kedelai berkualitas hasil pe...</p>
-                        <img src="kecap.jpg">
-                    </div>
-                    <div class="column">
-                        <h4>Bumbu Penyedap Indofood cube</h4>
-                        <p>BARU! Bumbu Penyedap Indofood cube! Dibuat dari ayam dan sapi pilihan berkualitas diproses dan dikem...</p>
-                        <img src="rasasapi.jpg">
-                    </div>
-                </div>'
-                '
+            <div class="col-sm-4">
+                <h1><small>Pengumuman</small></h1>
             </div>
-                <ul id="bottom">
-                    <li><a class="grey" href="#">Kontak Kami</a></li>
-                    <li><a class="grey" href="#">Peta Situs</a></li>
-                    <li><a class="grey" href="#">Syarat & Ketentuan</a></li>
-                        <div>
-                            <img class="right" src="callcenter.jpg">
-                        </div>
-                </ul>
-            <div>
-
-            </div>
-
+            <div class="col-sm-2"></div>
         </div>
+
+        <div class="row" style="margin-top: 10px;">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-2">
+                <p class="text-muted">15 Jul 2020</p>
+                <p style="font-size: 14px;">Para Pemegang Saham Indofood Menyetujui Seluruh Agenda RUPST</p>
+            </div>
+            <div class="col-sm-2">
+                <p class="text-muted">27 Jun 2020</p>
+                <p style="font-size: 14px;">TOSS-GCB: Kolaborasi Institusi Dalam Menyelesaikan Permasalahan Sampah Sungai dan Memanfaatkannya Menjadi Sumber Energi Alternatif</p>
+            </div>
+            <div class="col-sm-2">
+                <p class="text-muted">5 Jun 2020</p>
+                <p style="font-size: 14px;">Penjelasan PT Indofood Berkaitan dengan Modus Penipuan Undian Berhadiah</p>
+            </div>
+            <div class="col-sm-2">
+                <p class="text-muted">27 Jun 2020</p>
+                <p style="font-size: 14px;">Indofood Agri Statement Regarding The Article Published By Valuewalk Premium On 19th June Of 2019</p>
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+
+        <hr style="border-width: 3px; border-color: rgb(52, 52, 182); width: 66%;">
+
+        <div class="row" style="margin-top: 10px;">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-4">
+                <h1><small>Kegiatan</small></h1>
+            </div>
+            <div class="col-sm-4">
+                <h1><small>Peluncuran Produk Baru</small></h1>
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+
+        <div class="row" style="margin-top: 10px;">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-2">
+                <img src="festival.jpg" alt="Festival">
+                <div style="margin-top: 5px;">
+                    <img src="festival1.jpg" alt="Festival 1">
+                    <img src="festival2.jpg" alt="Festival 2">
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div style="font-weight: bold;">
+                    <p>ON OFF FESTIVAL 2019</p>
+                </div>
+                <p class="text-primary">Selanjutnya...</p>
+                <img src="festival3.jpg" alt="Festival 3">
+                <img src="festival4.jpg" alt="Festival 4">
+            </div>
+            <div class="col-sm-2">
+                <div style="font-weight: bold;">
+                    <p style="font-size: 15px;">Kecap Manis Indofood</p>
+                </div>
+                <p class="text-muted" style="font-size: 13px;">Kecap Manis Indofood kini hadir dengan formula baru! Dibuat dengan sari kedelai berkualitas hasil pe...</p>
+                <img src="kecap.jpg" alt="Kecap">
+            </div>
+            <div class="col-sm-2">
+                <div style="font-weight: bold;">
+                    <p style="font-size: 15px;">Bumbu Penyedap Indofood cube</p>
+                </div>
+                <p class="text-muted" style="font-size: 13px;">BARU! Bumbu Penyedap Indofood cube! Dibuat dari ayam dan sapi pilihan berkualitas diproses dan dikem...</p>
+                <img src="rasasapi.jpg" alt="Rasa Sapi">
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+
+        <hr style="border-width: 2px; border-color: rgb(209, 209, 209);">
+
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-6">
+                <p class="text-secondary" style="font-size: 13px;"><i class="fa fa-info-circle" style="font-size: 30px; color: rgb(184, 184, 184);"></i>
+                    <span style="padding-left: 11px;">Kontak Kami /Peta Situs /Syarat & Ketentuan /Copyright © 2015 PT INDOFOOD SUKSES MAKMUR Tbk</span></p>
+            </div>
+            <div class="col-sm-2" style="left: 5%;">
+                <img src="callcenter.jpg" alt="Call Center">
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+
     </div>
 </body>
 </html>

@@ -3,47 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="indofood.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        .logo_indofood{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+
     <title>Biodata | Indofood</title>
 </head>
 <body>
-    <div id="logo">
-        <img src="logo-indofood.png" width="65%">
-    </div>
     <div>
-        <ul id="menu">
-            <li><a href="index.html">BERANDA</a></li>
-            <li><a href="/grup-bisnis">GRUP BISNIS</a></li>
-            <li><a href="index1.html">KARIR</a></li>
-            <li><a href="/investor">INVESTOR RELATIONS</a></li>
-            <li><a href="/berita">BERITA & KEGIATAN</a></li>
-            <li><a href="index2.html">CSR</a></li>
-            <li><a href="biodata.html">BIODATA</a></li>
-            <li><a href="contact_us.html">KONTAK KAMI</a></li>
-        </ul>
-    </div>
 
-    <p class="middle title-kontak">Biodata</p>
-    <img class="biodata" src="biodata.JPG" style="width: 250px;">
+        <div style="margin-top: 30px;">
+            <img class="logo_indofood" src="logo-indofood.png" alt="Logo Indofood">
+        </div>
 
-    <div class="biodata under">
-        <p>Nama : Timothy Partaliano Seventry</p>
-        <p>NIM : 1981038</p>
-        <p>Jurusan : Teknik Informatika</p>
-        <p>Agama : Kristen Advent</p>
-        <p>Hobi : Bermain Basket</p>
-    </div>
+        <div>
+            <ul class="nav justify-content-center" style="margin-top: 7px;">
+                <li class="nav-item">
+                    <a class="nav-link text-body" href="index.html">PERUSAHAAN</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-body" href="#">GRUP BISNIS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-body" href="#">MEREK</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-body" href="#">INVESTOR RELATIONS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-body" href="#">BERITA & KEGIATAN</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-body" href="#">CSR</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-body" href="biodata.html">BIODATA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-body" href="contact_us.html">KONTAK KAMI</a>
+                </li>
+            </ul>
+        </div>
 
-    </div>
-        <ul id="bottom">
-            <li><a class="grey" href="#">Kontak Kami</a></li>
-            <li><a class="grey" href="#">Peta Situs</a></li>
-            <li><a class="grey" href="#">Syarat & Ketentuan</a></li>
-            <div>
-                <img class="right" src="callcenter.jpg">
+        <hr style="border-width: 3px; border-color: rgb(52, 52, 182); width: 71%; margin-top: -3px;">
+
+        <div class="container" style="margin-left: 185px;">
+            <h2>Biodata</h2>
+            <div class="card bg-primary" style="width:400px">
+                <img class="card-img-top" src="profil.jpeg" alt="Foto Profil" style="width:100%">
+                <div class="card-body">
+                    <h4 class="card-title">Timothy Partaliano</h4>
+                    <p class="card-text">NIM : 1981038<br>Jurusan : Teknik Informatika<br>Agama : Kristen Advent<br>Hobi : Bermain Basket</p>
+                    <a href="#" class="btn btn-light">Lihat Profil</a>
+                </div>
             </div>
-        </ul>
-    <div>
+        </div>
 
+        <hr style="border-width: 2px; border-color: rgb(209, 209, 209); margin-top: 300px;">
+
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-6">
+                <p class="text-secondary" style="font-size: 13px;"><i class="fa fa-info-circle" style="font-size: 30px; color: rgb(184, 184, 184);"></i>
+                    <span style="padding-left: 11px;">Kontak Kami /Peta Situs /Syarat & Ketentuan /Copyright © 2015 PT INDOFOOD SUKSES MAKMUR Tbk</span></p>
+            </div>
+            <div class="col-sm-2" style="left: 5%;">
+                <img src="callcenter.jpg" alt="Call Center">
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+
+    </div>
 </body>
 </html>
